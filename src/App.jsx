@@ -42,6 +42,7 @@ const App = () => {
   });
 
   return (
+    <>
     <div className="container">
       <h1>Top Scorers</h1>
       <div className="search-container">
@@ -78,7 +79,8 @@ const App = () => {
         </tbody>
       </table>
     </div>
-  );
-};
+    </>
+  )
+}
 
 export default App;
