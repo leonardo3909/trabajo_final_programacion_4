@@ -3,6 +3,7 @@ import './App.css'
 
 function App() {
   return (
+    <>
     <div className="container">
       <h1>Top Scorers</h1>
       <div className="search-container">
