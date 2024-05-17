@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css'
+import Millonarios from './assets/imagenes/Millonarios.png'
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
     <div className="btn-enviar__container">
       <button className="btn btn-primary">enviar</button> 
     </div>
+    <img src={Millonarios}></img>
     </>
   )
 }
