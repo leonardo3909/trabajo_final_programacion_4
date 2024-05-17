@@ -42,7 +42,7 @@ function App() {
       </div>
     </nav>
     <div className="btn-enviar__container">
-      <button className="btn btn-primary">Enviar</button> 
+      <button className="btn btn-primary">enviar</button> 
     </div>
     </>
   )
