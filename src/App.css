@@ -7,7 +7,8 @@
 }
 
 .top-bar {
-  background-color: #f2f2f2;
+  background-color: #1c1e22;
+  color: #ddd;
   padding: 5px 0;
 }
 
@@ -26,13 +27,6 @@ body {
   background-color: #f4f4f4;
 }
 
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
 h1 {
   text-align: center;
@@ -56,15 +50,15 @@ h1 {
 button {
   padding: 10px 20px;
   font-size: 16px;
-  color: #fff;
-  background-color: #007bff;
+  color: #000000;
+  background-color: #e3e6e9;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #e3e6e9;
 }
 
 table {
@@ -75,14 +69,26 @@ table {
 
 th,
 td {
-  border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
+  border: none;
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #1c1e22;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 4px solid red;
 }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 
 tbody tr:nth-child(even) {
   background-color: #f9f9f9;
@@ -92,8 +98,3 @@ tbody tr:hover {
   background-color: #f1f1f1;
 }
 
-thead th {
-  background-color: #007bff;
-  color: white;
-  text-transform: uppercase;
-}
