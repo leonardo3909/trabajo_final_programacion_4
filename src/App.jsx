@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.min.css"
-import './App.css'
 import Millonarios from './assets/imagenes/Millonarios.png'
 import React, { useState, useEffect } from 'react';
 import './App.css';
@@ -12,26 +11,26 @@ const App = () => {
   useEffect(() => {
     // Datos de ejemplo
     const examplePlayers = [
-      { name: 'Michel Meier', position: 'Goalkeeper', goals: 0, age: 31 },
-      { name: 'Roberto Alexis', position: 'Defender', goals: 24, age: 32 },
-      { name: 'John Winfield', position: 'Defender', goals: 21, age: 32 },
-      { name: 'John White', position: 'Forward', goals: 7, age: 31 },
-      { name: 'Michael Davis', position: 'Midfielder', goals: 9, age: 28 },
-      { name: 'David Norman', position: 'Midfielder', goals: 12, age: 31 },
-      { name: 'Burton Herbertson', position: 'Forward', goals: 21, age: 31 },
-      { name: 'James Brady', position: 'Forward', goals: 12, age: 20 },
-      { name: 'si', position: 'si', goals: 1, age: 1},
-      { name: 'si', position: 'si', goals: 1, age: 1},
-      { name: 'si', position: 'si', goals: 1, age: 1},
-      { name: 'si', position: 'si', goals: 1, age: 1},
-      { name: 'si', position: 'si', goals: 1, age: 1},
-      { name: 'si', position: 'si', goals: 1, age: 1},
-      { name: 'si', position: 'si', goals: 1, age: 1},
-      { name: 'si', position: 'si', goals: 1, age: 1},
-      { name: 'si', position: 'si', goals: 1, age: 1},
-      { name: 'si', position: 'si', goals: 1, age: 1},
-      { name: 'si', position: 'si', goals: 1, age: 1},
-      { name: 'si', position: 'si', goals: 1, age: 1}
+      { name: 'Álvaro Montero', position: 'Goalkeeper', goals: 0, age: 29 },
+      { name: 'Diego Novoa', position: 'Goalkeeper', goals: 0, age: 34},
+      { name: 'Andrés Llinás', position: 'Defender', goals: 8, age: 26 },
+      { name: 'Juan Vargas', position: 'Defender', goals: 9, age: 28 },
+      { name: 'Jorge Arias', position: 'Defender', goals: 3, age: 31 },
+      { name: 'Omar Bertel', position: 'Defender', goals: 3, age: 27 },
+      { name: 'Jhoan Hernández', position: 'Defender', goals: 0, age: 18 },
+      { name: 'Delvin Alfonzo', position: 'Denfender', goals: 0, age: 23 },
+      { name: 'Larry Vásquez', position: 'Midfielder', goals: 4, age: 31 },
+      { name: 'Daniel Giraldo', position: 'Midfielder', goals: 4, age: 31},
+      { name: 'Stiven Vega', position: 'Midfielder', goals: 0, age: 25},
+      { name: 'Daniel Ruíz', position: 'Midfielder', goals: 16, age: 22},
+      { name: 'Daniel Cataño', position: 'Midfielder', goals: 11, age: 32},
+      { name: 'David Silva', position: 'Midfielder', goals: 56, age: 37},
+      { name: 'Juan Pereira', position: 'Midfielder', goals: 14, age: 31},
+      { name: 'Émerson Rodríguez', position: 'Forward', goals: 10, age: 23},
+      { name: 'Santiago Giordana', position: 'Forward', goals: 3, age: 29},
+      { name: 'Leonardo Castro', position: 'Forward', goals: 36, age: 31},
+      { name: 'Jader Valencia', position: 'Forward', goals: 18, age: 24},
+      { name: 'Beckham Castro', position: 'Forward', goals: 8, age: 24}
     ];
     setPlayers(examplePlayers);
   }, []);
