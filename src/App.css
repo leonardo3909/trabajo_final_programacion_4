@@ -43,18 +43,11 @@
   background-color: #111720;
 }
 
-<<<<<<< HEAD
 .search-box__container input[type="text"] {
   background-color: #0F121A;
   border: none;
   width: 300px; 
   height: 40px; 
-=======
-.top-bar {
-  background-color: #1c1e22;
-  color: #ddd;
-  padding: 5px 0;
->>>>>>> 80980e6e16da866861f4bb33e4d2436ac58ba91c
 }
 
 /*Contactos parte superior navbar*/
@@ -164,12 +157,11 @@ tbody tr:hover {
   background-color: #f1f1f1;
 }
 
-<<<<<<< HEAD
 thead th {
   background-color: #007bff;
   color: white;
   text-transform: uppercase;
 }
 
-=======
->>>>>>> 80980e6e16da866861f4bb33e4d2436ac58ba91c
+
+
