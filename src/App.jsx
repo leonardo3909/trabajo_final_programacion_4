@@ -1,8 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css"
-import 'bootstrap-icons/font/bootstrap-icons.css'
 import Millonarios from './assets/imagenes/Millonarios.png'
+// eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 import './App.css';
+
 
 const App = () => {
   const [players, setPlayers] = useState([]);
@@ -61,13 +62,13 @@ const App = () => {
     <div className="top-bar__container">
       <div className="container-fluid">
         <div className="contact-info__container">
-          <span className="arriba-izquierda__container"><i class="bi bi-at">contact@website.com</i></span>
-          <span><i class="bi bi-telephone">+1 234 567 890</i></span>
-          <span><i class="bi bi-geo-alt">27 Calle St, Portland</i></span>
+          <span className="arriba-izquierda__container"><i className="bi bi-at">contact@website.com</i></span>
+          <span><i className="bi bi-telephone">+1 234 567 890</i></span>
+          <span><i className="bi bi-geo-alt">27 Calle St, Portland</i></span>
           <span className="superior-derecha1__container">Buy tickets</span>
           <span className="superior-derecha2__container">Login</span>
           <span className="superior-derecha2__container">Register</span>
-          <span><i class="bi bi-cart"></i></span>
+          <span><i className="bi bi-cart"></i></span>
         </div>
       </div>
     </div>
@@ -108,7 +109,7 @@ const App = () => {
           </li>
         </ul>
         <div className="search-box__container">
-          <input type="text" placeholder="Search                                                  🔎"/>
+          <input type="text" placeholder="Search                                                  🔎" />
         </div>
        </div>
       </div>
@@ -117,14 +118,6 @@ const App = () => {
 
     <div className="container">
       <h1>Top Scorers</h1>
-      <div className="search-container">
-        <input
-          type="text"
-          placeholder="Buscar por nombre jugador..."
-          value={searchTerm}
-          onChange={handleSearch}
-        />
-      </div>
       <button onClick={handleSort}>
         Ordenar por goles ({sortOrder === 'asc' ? 'menor a mayor' : 'mayor a menor'})
       </button>
