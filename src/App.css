@@ -1,22 +1,82 @@
+/*Color de la navbar*/
+.color-navbar__container {
+  background-color: #111720 !important;
+}
+
+/*Detalles del escudo en la nav*/
 .logo-equipo__container{
   height: 100px;
+  margin-left: 25px;
 }
 
-.active-link__container{
+/*Ajustes adicionales para los enlaces*/
+.navbar-nav .nav-link {
+  padding-top: 60px;
+  font-size: 15px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/*Color links no seleccionados y seleccionado*/
+.color-letra__container{
+  color: #A0AFC1 !important;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.color-letra2__container{
+  color: #FFFFFF !important;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  border-bottom: 2px solid red;
+}
+
+/*Detalles de la cajita buscador; color, tamaño*/
+.search-box__container{
+  padding-top: 50px;
   position: relative;
+  left: -30px;
+  background-color: #111720;
 }
 
-.top-bar {
-  background-color: #f2f2f2;
-  padding: 5px 0;
+.search-box__container input[type="text"] {
+  background-color: #0F121A;
+  border: none;
+  width: 300px; 
+  height: 40px; 
 }
 
-.contact-info {
+/*Contactos parte superior navbar*/
+.top-bar__container {
+  background-color: #0F121A;
+  padding: 15px;
+  color: gray;
+  /*clip-path: polygon(13% 0, 100% 0, 100% 100%, 18% 320%);*/
+}
+
+.contact-info__container {
   text-align: right;
+  margin-right: 10px;
+  font-family: "Roboto", sans-serif;
 }
 
-.contact-info span {
-  margin-left: 10px;
+.contact-info__container span {
+  padding-right: 1.3em; 
+}
+
+.superior-derecha1__container{
+  color: yellow;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+.superior-derecha2__container{
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -97,3 +157,4 @@ thead th {
   color: white;
   text-transform: uppercase;
 }
+

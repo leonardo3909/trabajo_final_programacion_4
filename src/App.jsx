@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css"
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import Millonarios from './assets/imagenes/Millonarios.png'
 import React, { useState, useEffect } from 'react';
 import './App.css';
@@ -57,51 +58,63 @@ const App = () => {
 
   return (
     <>
-    <div className="top-bar">
-    <div className="container-fluid">
-      <div className="contact-info">
-        <span>@ contact@website.com</span>
-        <span>☎ +1 234 567 890</span>
-        <span>🌍 27 Calle St, Portland</span>
+    <div className="top-bar__container">
+      <div className="container-fluid">
+        <div className="contact-info__container">
+          <span className="arriba-izquierda__container"><i class="bi bi-at">contact@website.com</i></span>
+          <span><i class="bi bi-telephone">+1 234 567 890</i></span>
+          <span><i class="bi bi-geo-alt">27 Calle St, Portland</i></span>
+          <span className="superior-derecha1__container">Buy tickets</span>
+          <span className="superior-derecha2__container">Login</span>
+          <span className="superior-derecha2__container">Register</span>
+          <span><i class="bi bi-cart"></i></span>
+        </div>
       </div>
     </div>
-  </div>
-  <nav className="navbar navbar-expand-lg bg-body-tertiary">
-    <div className="container-fluid">
-      <a className="navbar-brand" href="#"><img src={Millonarios} className="logo-equipo__container"></img></a>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary color-navbar__container">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#"><img src={Millonarios} className="logo-equipo__container"/></a>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul className="navbar-nav me-auto mb-2 mb-lg-0 align-links-bottom">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Home</a>
+            <a className="nav-link active color-letra__container" aria-current="page" href="#">HOME</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Link</a>
+            <a className="nav-link color-letra__container" href="#">NEWS</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link color-letra__container" href="#">TEAM</a>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+            <a className="nav-link dropdown-toggle color-letra2__container" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SOCCER
             </a>
-            <ul className="dropdown-menu">
-              <li><a className="dropdown-item" href="#">Action</a></li>
-              <li><a className="dropdown-item" href="#">Another action</a></li>
-              <li><hr className="dropdown-divider" /></li>
-              <li><a className="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+          </li>
+          <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle color-letra__container" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              PAGES
+            </a>
+          </li>
+          <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle color-letra__container" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SHOP
+            </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link disabled" aria-disabled="true">Disabled</a>
+            <a className="nav-link color-letra__container" href="#">PURCHASE</a>
           </li>
         </ul>
-        <form className="d-flex" role="search">
-          <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-          <button className="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        <div className="search-box__container">
+          <input type="text" placeholder="Search                                                  🔎"/>
+        </div>
+       </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+
+
     <div className="container">
       <h1>Top Scorers</h1>
       <div className="search-container">
