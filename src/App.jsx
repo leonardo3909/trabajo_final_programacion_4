@@ -19,7 +19,7 @@ const App = () => {
       { name: 'Jorge Arias', position: 'Defender', goals: 3, age: 31 },
       { name: 'Omar Bertel', position: 'Defender', goals: 3, age: 27 },
       { name: 'Jhoan Hernández', position: 'Defender', goals: 0, age: 18 },
-      { name: 'Delvin Alfonzo', position: 'Denfender', goals: 0, age: 23 },
+      { name: 'Delvin Alfonzo', position: 'Defender', goals: 0, age: 23 },
       { name: 'Larry Vásquez', position: 'Midfielder', goals: 4, age: 31 },
       { name: 'Daniel Giraldo', position: 'Midfielder', goals: 4, age: 31},
       { name: 'Stiven Vega', position: 'Midfielder', goals: 0, age: 25},
