@@ -178,7 +178,8 @@ const App = () => {
         </div>
       </nav>
       <div className="container">
-        <h1>Top Scorers</h1>
+        <h1 className="titlo-tabla__container">Top Scorers</h1>
+        <br/>
         <div className="search-tamano__container">
           <input type="text" placeholder="Buscar por nombre jugador..." value={searchText}onChange={(e) => setSearchText(e.target.value)}/>
           <button className="boton-detalle__container"><img src={lupaImg} className="logo-lupa__container" alt="Lupa logo" /></button>
@@ -193,7 +194,7 @@ const App = () => {
           <button className="botones-pintar__container" onClick={mostrarTodosJugadores}>Mostrar Todos</button>
           )}
         </div>
-        <table>
+        <table className="tabla-jugadores__container">
           <thead>
             <tr>
               <th>#</th>
