@@ -129,19 +129,12 @@
   margin-top: 15px;
 }
 
-th,td {
-  padding: 8px;
-  text-align: left;
-  border: none;
+/*Color de la letra de un par de filas*/
+.tabla-letra__container{
+  color: gray;
 }
 
-th {
-  background-color: #1c1e22;
-    color: white;
-    text-transform: uppercase;
-    border-bottom: 4px solid red;
-}
-
+/*Contenedor sobre las redes sociales parte inferior*/
 .social-icons__container {
   display:flexbox;
   justify-content: center;
@@ -159,6 +152,20 @@ th {
 .social-icons__container img {
   width: 30px;
   height: 30px;
+}
+
+
+th,td {
+  padding: 8px;
+  text-align: left;
+  border: none;
+}
+
+th {
+  background-color: #1c1e22;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 4px solid red;
 }
 
 .container {

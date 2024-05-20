@@ -212,11 +212,11 @@ const App = () => {
           <tbody>
           {playersFiltered.map((player, index) => (
             <tr key={index}>
-              <td>{players.indexOf(player) + 1}</td>
+              <td className="tabla-letra__container">{players.indexOf(player) + 1}</td>
               <td>{player.name}</td>
-              <td>{player.position}</td>
-              <td>{player.goals}</td>
-              <td>{player.age}</td>
+              <td className="tabla-letra__container">{player.position}</td>
+              <td className="tabla-letra__container">{player.goals}</td>
+              <td className="tabla-letra__container">{player.age}</td>
             </tr>
           ))}
           </tbody>
@@ -224,22 +224,22 @@ const App = () => {
       </div>
       <br/>
       <div className="social-icons__container">
-  <a href="#" target="_blank" rel="noopener noreferrer">
-    <img src={twitter} alt="Twitter" />
-  </a>
-  <a href="#" target="_blank" rel="noopener noreferrer">
-    <img src={pinteres} alt="Facebook" />
-  </a>
-  <a href="#" target="_blank" rel="noopener noreferrer">
-    <img src={correo} alt="Email" />
-  </a>
-  <a href="#" target="_blank" rel="noopener noreferrer">
-    <img src={reddit} alt="Instagram" />
-  </a>
-  <a href="#" target="_blank" rel="noopener noreferrer">
-    <img src={mensaje} alt="YouTube" />
-  </a>
-</div>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src={twitter} alt="Twitter" />
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src={pinteres} alt="Facebook" />
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src={correo} alt="Email" />
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src={reddit} alt="Instagram" />
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src={mensaje} alt="YouTube" />
+        </a>
+      </div>
     </>
   );
 };
