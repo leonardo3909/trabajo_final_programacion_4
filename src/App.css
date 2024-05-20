@@ -140,7 +140,11 @@ th {
     border-bottom: 4px solid red;
 }
 
-
+.social-icons__container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 /*
 .container {
   max-width: 1000px;
