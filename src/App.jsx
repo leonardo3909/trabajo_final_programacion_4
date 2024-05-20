@@ -222,6 +222,7 @@ const App = () => {
           </tbody>
         </table>
       </div>
+      <br/>
       <div className="social-icons__container">
   <a href="#" target="_blank" rel="noopener noreferrer">
     <img src={twitter} alt="Twitter" />

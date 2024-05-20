@@ -141,7 +141,7 @@ th {
 }
 
 .social-icons__container {
-  display: flex;
+  display:flexbox;
   justify-content: center;
   margin-bottom: 20px;
   background-color:rgb(242, 244, 245);
