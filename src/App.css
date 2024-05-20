@@ -118,6 +118,8 @@
 .titlo-tabla__container {
   text-align: center;
   margin-bottom: 20px;
+  background-color: rgb(242, 244, 245);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /*Contenedor de la tabla de jugadores y sus estadísticas*/
