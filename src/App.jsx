@@ -1,5 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import Millonarios from './assets/imagenes/Millonarios.png'
+import twitter from './assets/imagenes/Twitter-logo-png.png';
+import pinteres  from './assets/imagenes/pinteres.png';
+import correo from './assets/imagenes/email.png';
+import mensaje from './assets/imagenes/instagram.png';
+import reddit from './assets/imagenes/youtube.png';
 import lupaImg from './assets/imagenes/lupa.png';
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import React, { useState, useEffect } from 'react';
