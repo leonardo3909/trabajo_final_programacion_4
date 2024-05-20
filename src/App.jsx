@@ -2,9 +2,9 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Millonarios from './assets/imagenes/Millonarios.png'
 import twitter from './assets/imagenes/Twitter-logo-png.png';
 import pinteres  from './assets/imagenes/pinteres.png';
-import correo from './assets/imagenes/email.png';
-import mensaje from './assets/imagenes/instagram.png';
-import reddit from './assets/imagenes/youtube.png';
+import correo from './assets/imagenes/correo_sin_fondo.png';
+import mensaje from './assets/imagenes/mensaje.png';
+import reddit from './assets/imagenes/logo_reddit.png';
 import lupaImg from './assets/imagenes/lupa.png';
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import React, { useState, useEffect } from 'react';
@@ -222,6 +222,23 @@ const App = () => {
           </tbody>
         </table>
       </div>
+      <div className="social-icons__container">
+  <a href="#" target="_blank" rel="noopener noreferrer">
+    <img src={twitter} alt="Twitter" />
+  </a>
+  <a href="#" target="_blank" rel="noopener noreferrer">
+    <img src={} alt="Facebook" />
+  </a>
+  <a href="#" target="_blank" rel="noopener noreferrer">
+    <img src={} alt="Email" />
+  </a>
+  <a href="#" target="_blank" rel="noopener noreferrer">
+    <img src={} alt="Instagram" />
+  </a>
+  <a href="#" target="_blank" rel="noopener noreferrer">
+    <img src={} alt="YouTube" />
+  </a>
+</div>
     </>
   );
 };
