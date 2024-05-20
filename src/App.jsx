@@ -233,7 +233,7 @@ const App = () => {
     <img src={correo} alt="Email" />
   </a>
   <a href="#" target="_blank" rel="noopener noreferrer">
-    <img src={} alt="Instagram" />
+    <img src={reddit} alt="Instagram" />
   </a>
   <a href="#" target="_blank" rel="noopener noreferrer">
     <img src={} alt="YouTube" />
