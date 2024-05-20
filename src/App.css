@@ -145,6 +145,15 @@ th {
   justify-content: center;
   margin-bottom: 20px;
 }
+
+.social-icons__container a {
+  margin: 0 10px;
+}
+
+.social-icons__container img {
+  width: 30px;
+  height: 30px;
+}
 /*
 .container {
   max-width: 1000px;
