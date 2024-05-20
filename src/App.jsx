@@ -183,7 +183,7 @@ const App = () => {
         </div>
       </nav>
       <div className="container">
-        <h1 className="titlo-tabla__container">Top Scorers</h1>
+        <h1 className="titlo-tabla__container">TOP SCORERS</h1>
         <br/>
         <div className="search-tamano__container">
           <input type="text" placeholder="Buscar por nombre jugador..." value={searchText}onChange={(e) => setSearchText(e.target.value)}/>
