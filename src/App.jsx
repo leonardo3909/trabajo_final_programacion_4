@@ -230,7 +230,7 @@ const App = () => {
     <img src={pinteres} alt="Facebook" />
   </a>
   <a href="#" target="_blank" rel="noopener noreferrer">
-    <img src={} alt="Email" />
+    <img src={correo} alt="Email" />
   </a>
   <a href="#" target="_blank" rel="noopener noreferrer">
     <img src={} alt="Instagram" />
