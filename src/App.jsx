@@ -227,7 +227,7 @@ const App = () => {
     <img src={twitter} alt="Twitter" />
   </a>
   <a href="#" target="_blank" rel="noopener noreferrer">
-    <img src={} alt="Facebook" />
+    <img src={pinteres} alt="Facebook" />
   </a>
   <a href="#" target="_blank" rel="noopener noreferrer">
     <img src={} alt="Email" />
