@@ -236,7 +236,7 @@ const App = () => {
     <img src={reddit} alt="Instagram" />
   </a>
   <a href="#" target="_blank" rel="noopener noreferrer">
-    <img src={} alt="YouTube" />
+    <img src={mensaje} alt="YouTube" />
   </a>
 </div>
     </>
