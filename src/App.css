@@ -154,7 +154,16 @@
   height: 30px;
 }
 
+/*Detalles de la tabla jugadores y su fondo*/
+.container-detalle__container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+/*Manejo de las filas y casillas de la tabla*/
 th,td {
   padding: 8px;
   text-align: left;
@@ -166,14 +175,6 @@ th {
     color: white;
     text-transform: uppercase;
     border-bottom: 4px solid red;
-}
-
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 

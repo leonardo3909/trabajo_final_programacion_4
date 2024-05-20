@@ -182,7 +182,7 @@ const App = () => {
           </div>
         </div>
       </nav>
-      <div className="container">
+      <div className="container-detalle__container">
         <h1 className="titlo-tabla__container">TOP SCORERS</h1>
         <br/>
         <div className="search-tamano__container">
