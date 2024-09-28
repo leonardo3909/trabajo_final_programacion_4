@@ -7,6 +7,7 @@ import mensaje from './assets/imagenes/mensaje.png';
 import reddit from './assets/imagenes/logo_reddit.png';
 import lupaImg from './assets/imagenes/lupa.png';
 import 'bootstrap-icons/font/bootstrap-icons.css'
+// eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
